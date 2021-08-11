@@ -1,0 +1,4 @@
+---
+roles:
+  - hosninabil.nfsserver
+  - hosninabil.mariadbserver

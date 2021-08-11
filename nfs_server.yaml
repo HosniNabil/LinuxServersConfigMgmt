@@ -1,0 +1,6 @@
+- name: setup nfs server
+  hosts: nfs
+  become: true
+  tasks:
+    - include_role:
+        name: hosninabil.nfsserver

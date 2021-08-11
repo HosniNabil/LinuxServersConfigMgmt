@@ -1,0 +1,6 @@
+- name: Set up mariadb server
+  hosts: mariadb
+  become: true
+  tasks:
+    - include_role:
+        name: hosninabil.mariadb
